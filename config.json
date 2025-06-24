@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.novels.pl/",
+  "tagsUrl": "https://www.novels.pl//tags",
+  "xpaths": {
+    "abandonedChildrenLink": "/html/body/div[3]/div/div[2]/div[2]/div[3]/div[2]/div[1]/a[1]",
+    "abandonedChildrenTitleCheck": "/html/body/div[3]/div/div[2]/div[2]/div[3]/div[1]/b",
+    "novelTableForGenre": "/html/body/div[3]/div/div[2]/div[2]/div[3]/div[2]/table",
+    "genresTabLink": "/html/body/div[3]/div/div[3]/div/div[2]/div[2]/a",
+    "genreListPanel": "/html/body/div[3]/div/div[2]/div[2]/div[3]/div[2]",
+    "abandonedChildrenPanelVerification": "/html/body/div[3]/div/div[2]/div[2]/div[3]/div[2]"
+  }
+}

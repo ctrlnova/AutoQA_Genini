@@ -1,0 +1,15 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Other
+dist/
+*.log
+tests/screenshots/
+# config.json # If it contains sensitive data, uncomment this
+
+# Environment variables
+.env # Add this line

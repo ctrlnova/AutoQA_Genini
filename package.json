@@ -1,0 +1,22 @@
+{
+  "name": "ai-playwright-bdd-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate-tests": "npx ts-node generate_playwright_tests.ts",
+    "test": "npx playwright test tests/generated_tests.spec.ts",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
